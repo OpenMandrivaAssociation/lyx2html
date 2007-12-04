@@ -1,6 +1,6 @@
 %define name lyx2html
 %define version 0.2
-%define release 6mdk
+%define release  %mkrel 6
 
 Summary: Lyx2html is a simple lyx to html converter
 Name: %{name}
