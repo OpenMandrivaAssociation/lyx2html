@@ -11,7 +11,6 @@ Patch:	%{name}-makefile.patch.bz2
 License: GPL
 URL: http://www.netmeister.org/apps/lyx2html/index.html
 Group: Text tools
-Buildroot: %{_tmppath}/%{name}-buildroot
 
 %description
 "lyx2html" is a very simple Lyx to HTML converter. As the name 
