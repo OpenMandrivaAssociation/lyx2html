@@ -2,7 +2,7 @@
 %define version 0.2
 %define release  %mkrel 6
 
-Summary: Lyx2html is a simple lyx to html converter
+Summary: Simple lyx to html converter
 Name: %{name}
 Version: %{version}
 Release: %{release}
