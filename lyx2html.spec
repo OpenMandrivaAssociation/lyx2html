@@ -1,6 +1,6 @@
 %define name lyx2html
 %define version 0.2
-%define release  %mkrel 9
+%define release  %mkrel 10
 
 Summary: Simple lyx to html converter
 Name: %{name}
