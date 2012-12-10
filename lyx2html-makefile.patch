@@ -1,0 +1,22 @@
+--- Makefile.orig	2000-10-03 10:57:31.000000000 -0400
++++ Makefile	2012-11-21 07:05:34.713035596 -0500
+@@ -3,7 +3,7 @@
+ 
+ OFILES      = document.o main.o print.o section.o util.o
+ 
+-INCLUDES    = -I, -I/usr/local/lib, -I/usr/include, -I/usr/lib
++INCLUDES    = -I, -I$(DESTDIR)/usr/lib, -I$(DESTDIR)/usr/include, -I$(DESTDIR)/usr/lib
+ 
+ COPTS       = -O3 -Wall
+ 
+@@ -23,8 +23,8 @@
+ ############################################
+ 
+ install:
+-	@mv lyx2html /usr/local/bin/
+-	@mv lyx2html.1 /usr/man/man1/
++	@mv lyx2html $(DESTDIR)/usr/bin/
++	@mv lyx2html.1 $(DESTDIR)/usr/share/man/man1/
+ 
+ ###########################################
+ 

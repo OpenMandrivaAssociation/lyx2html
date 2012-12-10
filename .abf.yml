@@ -1,2 +1,3 @@
 sources:
-  "lyx2html-0.2.tar.bz2:"	cfbc5559f5bbde627a05d1f64be192a4338bc05b
+  "lyx2html-0.2.tar.bz2": cfbc5559f5bbde627a05d1f64be192a4338bc05b
+  "lyx2html-makefile.patch.bz2": e62dc35d79a74d7f36992833ea207efb698f163b
