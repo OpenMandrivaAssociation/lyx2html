@@ -1,7 +1,7 @@
 Summary: Simple lyx to html converter
 Name:    lyx2html
 Version: 0.2
-Release: 10
+Release: 11
 Source0: %{name}-%{version}.tar.bz2
 Patch:	%{name}-makefile.patch
 License: GPL
