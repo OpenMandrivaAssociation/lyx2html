@@ -5,7 +5,7 @@ Release: 11
 Source0: %{name}-%{version}.tar.bz2
 Patch:	%{name}-makefile.patch
 License: GPL
-URL: http://www.netmeister.org/apps/lyx2html/index.html
+URL: https://www.netmeister.org/apps/lyx2html/index.html
 Group: Text tools
 
 %description
