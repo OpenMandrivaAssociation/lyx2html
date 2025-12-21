@@ -8,6 +8,7 @@ License: GPL
 URL: https://www.netmeister.org/apps/lyx2html/index.html
 Group: Text tools
 
+BuildRequires:	make
 %description
 "lyx2html" is a very simple Lyx to HTML converter. As the name 
 suggests, it takes a ".lyx" document as input and generates an 
